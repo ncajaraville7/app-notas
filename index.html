@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>APP NOTAS</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+
+    <div id="contenido">
+        <div class="container">
+
+            <h1>APP NOTAS</h1>
+            <div class="row">
+                <div class="six columns">
+                    <label for="nota">Nota:</label>
+                    <form  id="formulario">
+                            <label for="nota"></label>
+                            <input type="text" name="nota" id="nota">
+                            <input type="submit" class="button u-full-width button-primary" value="Agregar">
+                    </form>
+                </div>
+                <div class="six columns">
+                    <h2>Mis Notas</h2>
+                    <div id="lista-notas"></div>
+                    <div id="error"></div>
+                </div>
+            </div>
+
+        </div>
+    </div> 
+
+    <script src="js/app.js"></script>
+</body>
+</html>
